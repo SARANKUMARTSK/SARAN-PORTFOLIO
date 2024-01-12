@@ -1,0 +1,49 @@
+.topContent{
+    display: flex;
+    border: 1px solid black;
+    background-color: black;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+}
+.topContent
+    {
+        background-image: url(src/assets/My-images/saran.jpg);
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+
+.topContent_contaier{
+    text-align: center; 
+    padding: 20px;
+    margin: 150px
+    
+}
+.download_button{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: orangered;
+    border-radius: 6px;
+}
+.mywork_button>button{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    
+}
+.mywork_button>button:hover{
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    transform: scale(1.09);
+}
+
+.download_button:hover{
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    transform: scale(1.09);
+}
