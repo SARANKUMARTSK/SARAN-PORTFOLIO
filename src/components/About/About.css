@@ -1,6 +1,7 @@
 .about{
     background-color: white;  
     /* border: 1px solid black; */
+   
 }
 .my_image{
     height: 300px;
@@ -18,11 +19,15 @@
 }
 .about_container{
     display: flex;
-    text-align: center;
+}
+.about_container>div{
+    display: inline;
 }
 .about_content{
     padding: 40px;
     font-size: xx-large;
+    display: inline;
+    width: auto;
 }
 .about_content>h4{
     color: orangered;
@@ -33,4 +38,37 @@
 .about_content>p{
     color: black;
 }
+.college{
+    width: auto;
+    height: auto;
+    /* border: 1px solid black; */
+    border-radius:5px ;
+    padding: 10px;
+    display: flex   ;
+    gap: 30px;
+}
 
+.clg_img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+.school_img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+.hse{
+    width: auto;
+    height: auto;
+    /* border: 1px solid black; */
+    border-radius:5px ;
+    padding: 10px;
+    display: flex   ;
+    gap: 30px;
+}
+.education_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

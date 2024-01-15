@@ -1,11 +1,12 @@
 import React from 'react'
 import '../Experience/Experience.css'
+import { Element } from 'react-scroll'
 
 function Experience() {
   return <>
-  <div className='experience'>
+  <Element name='experience' className='experience'>
     <h1>This is Experience Page</h1>
-  </div>
+  </Element>
   </>
 }
 

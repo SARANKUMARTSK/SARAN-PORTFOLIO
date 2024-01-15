@@ -21,7 +21,7 @@ function Navbar() {
         <Link to='projects' smooth={true} duration={800}>
               <h4>Projects</h4>
         </Link>
-        <Link to='exp' smooth={true} duration={800}>
+        <Link to='experience' smooth={true} duration={800}>
               <h4>Experience</h4>
         </Link>
         <Link to='contact' smooth={true} duration={800}>

@@ -1,31 +1,79 @@
 
 .skill_container{
-    background-image: url("https://youteam.io/blog/wp-content/uploads/2022/10/codetransition-2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background-image: linear-gradient(rgb(237, 196, 237) 50% , rgb(141, 137, 137) );
+    height: auto;
+    border-radius: 10px;
+}
+.skill_details{
+    border: 2px solid white;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    box-shadow: 6px 6px 6px darkmagenta;
+    /* background-image: url('https://cdn-icons-png.flaticon.com/512/732/732212.png'); */
+    border-radius: 10px;
+    background-color: darkmagenta;
+    color: wheat;
+    text-shadow: 2px 2px 2px black;
+}
+.skill_details:hover{
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    transform: scale(1.09);
+}
+
+.skill_details_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:50px;
+    padding: 50px;
+
+}
+
+.skill_title{
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px violet;
+}
+
+.js_icon{
+    color: rgb(239, 239, 14);
+    font-size:120px ;
     
 }
-
-.skills>ul>li{
-    color: white;
-    font-weight: bolder;
-    font-size: 30px;
-    list-style: none;
-    padding: 20px;
-    text-shadow: 2px 2px 5px black  ;
+.css_icon{
+    color: blue;
+    font-size:120px ;
 }
-.skills>ul{
-    padding-top: 30px;
+.html_icon{
+    color: orangered;
+    font-size: 120px;
 }
-.skills>ul>li:hover{
-    cursor: pointer;
-
+.react_icon{
+    color: skyblue;
+    font-size:120px ;
 }
-.skills>div{
-    color: burlywood;
-    text-align: center;
-    text-shadow: 1px 1px 5px black;
-    font-weight: bolder;
-    font-size: xx-large;
+.node_icon{
+    color:lawngreen;
+    font-size:120px ;
+}
+.git_hub{
+    color:black;
+    font-size:120px ;
+}
+.express_icon{
+    font-size: 76px;
+}
+.img_mongodb{
+    /* padding-top: 10px; */
+    height: 115px;
+    width: 150px;
+    border-radius: 8px;
+    padding-top: 12px;
+}
+.bootstrap_icon{
+    color:blue;
+    font-size:120px ;
 }
