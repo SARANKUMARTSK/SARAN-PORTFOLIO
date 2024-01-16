@@ -19,6 +19,7 @@
 }
 .about_container{
     display: flex;
+    justify-content: space-evenly;
 }
 .about_container>div{
     display: inline;
