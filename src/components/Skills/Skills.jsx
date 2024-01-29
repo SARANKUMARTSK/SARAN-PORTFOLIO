@@ -19,7 +19,7 @@ function Skills() {
                         
                     </div>
                     <div className='skill_details css'>
-                    <FontAwesomeIcon className='css_icon' icon={faCss3} />
+                    <img className='css_image' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi8WHiflZyXffrnb_rsoHv9OSZuNrC9kbyLg&usqp=CAU" alt="" />
                     <h2>CSS 3</h2>
                         
                     </div>

@@ -1,14 +1,14 @@
 import React from 'react'
 import {Link} from 'react-scroll'
-import './Navbar.css'
+import './Topbar.css'
 
-function Navbar() {
+function Topbar() {
   return <>
-  <div className='navbar'>
-    <div className='navbar_left'>
-      <h1><span>F</span>ull<span> S</span>tack <span>W</span>eb <span>D</span>eveloper</h1>
-    </div>
-    <div className='navbar_right'>
+  <div className='navbar' style={{position:"sticky"}}>
+      <div className='navbar_left'>
+        <h1><span>F</span>ull<span> S</span>tack <span>W</span>eb <span>D</span>eveloper</h1>
+      </div>
+      <div className='navbar_right'>
         <Link to='home' smooth={true} duration={800}>
              <h4>Home</h4>
         </Link>
@@ -34,4 +34,4 @@ function Navbar() {
   </>
 }
 
-export default Navbar
+export default Topbar

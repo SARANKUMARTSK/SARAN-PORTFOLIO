@@ -1,5 +1,6 @@
+
 .project_page{
-    height: auto;
+    height: 100%;
     padding: 50px;
 
 }
@@ -20,10 +21,11 @@
 .project_heading{
     text-align: center;
     text-shadow: 2px 2px 5px lawngreen  ;
+    margin-top: 50px;
 }
 
 .about_project{
-    height: 300px;
+    height: auto;
     width: 400px;
     /* border: 2px solid black; */
     border-radius: 10px;
@@ -65,4 +67,12 @@
 .about_project>h1{
     color: lawngreen;
     text-shadow: 1px 1px 2px black;
+    font-family:'Times New Roman', Times, serif ;
+}
+.aTag{
+    text-decoration: none;
+    color: black;
+}
+.aTag:hover{
+    color: white;
 }

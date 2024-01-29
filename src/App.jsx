@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './components/Navbar/Navbar'
+import Topbar from './components/Navbar/Topbar'
 import Skills from './components/Skills/Skills'
 import Footer from './components/Footer/Footer'
 import TopContent from './components/TopContent/TopContent'
@@ -9,7 +9,7 @@ import Experience from './components/Experience/Experience'
 
 function App() {
   return <>
-  <Navbar />
+  <Topbar />
   <TopContent />
   <About />
   <Skills />
