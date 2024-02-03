@@ -1,32 +1,17 @@
-.about{
-    background-color: white;  
-    /* border: 1px solid black; */
-   
-}
-.my_image{
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Playfair Display", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+/* .my_image{
     height: 300px;
     width: 300px;
-     border-radius: 10px 20px 20px 10px ;
-    /*border-left: 20px solid rgb(148, 192, 212);
-    border-top:20px solid rgb(148, 192, 212) ;
-    /* padding: 40px; */
-    margin: 30px;
-    margin-top: 80px;
+    border-radius: 10px 20px 20px 10px ;
+    float: left;
+    margin: 50px;
     box-shadow: 9px 5px 5px rgb(33, 150, 196);
 }
 .my_image:hover{
     transform: scale(1.1);
-}
-.about_container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.about_content{
-    padding: 40px;
-    font-size: xx-large;
-    display: inline;
-    width: auto;
+    transition: ease-in-out 200ms;
 }
 .about_content>h4{
     color: orangered;
@@ -37,67 +22,91 @@
 .about_content>p{
     color: black;
 }
-.college{
-    width: auto;
-    height: auto;
-    /* border: 1px solid black; */
-    border-radius:5px ;
-    padding: 10px;
-    display: flex   ;
-    gap: 30px;
-}
-
-.clg_img{
-    height: 150px;
-    width: 150px;
-    border-radius: 5px;
-}
-.school_img{
-    height: 150px;
-    width: 150px;
-    border-radius: 5px;
-}
-.hse{
-    width: auto;
-    height: auto;
-    /* border: 1px solid black; */
-    border-radius:5px ;
-    padding: 10px;
-    display: flex   ;
-    gap: 30px;
-}
-.education_container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 .about_para{
+    display: inline;
     font-size: 20px;
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
-
-.my_image_container{
-  flex: 0.3;
-}
 .about_content{
-  flex: 0.7;
-  width: auto;
-  align-items: center;
-  margin-top: 60px;
-}
-@media screen and (min-width:767px) {
+    text-indent: 40px;
+    padding-top: 50px;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+} */
+
+/* @media screen and (min-width:767px) {
     .about_para{
         font-size: 25px;
     }  
-}
-@media screen and (max-width:767px) {
+} */
+/* @media screen and (max-width:767px) {
     .about_content{
         flex: 0.7;
         width: auto;
         align-items: center;
         margin-top: 0px;
       }
+} */
+
+.about{
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+
 }
+.my_image{
+    height: 250px;
+    float: left;
+    border: 5px solid lightseagreen;
+    border-radius: 10px;
+    margin: 10px;
+}
+.about>h4{
+    text-align: center;
+    text-shadow: 1px 1px 2px;
+    font-family: "Teko", sans-serif;
+    font-size: 32px;
+    text-shadow: 1px 1px 1px blue ;
+
+}
+.about_content>p{
+    font-family: "Playfair Display", serif;
+    text-indent: 50px;
+    font-weight: 800;
+    color: lightslategrey;
+    font-size: 18px;
+}
+.personal_details{
+    display: inline;
+}
+.personal_details>div{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.personal_details>h5{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+.personal_details>div>p{
+    color: lightslategrey;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+.personal_details>div>p>span{
+    color: lightseagreen;
+}
+.about_container{
+    padding: 10px;
+    padding-top: 30px;
+}
+/* .about_icons>a>svg{
+    color: black;
+    height: 30px;
+    display: flex;
+    padding: 8px;
+} */
+
+
 

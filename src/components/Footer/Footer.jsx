@@ -1,24 +1,49 @@
 import React from 'react'
-import "../Footer/Footer.css"
-import { Element } from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone,faEnvelope, faLink} from '@fortawesome/free-solid-svg-icons'
-import { faFacebookSquare, faGithub, faInstagramSquare, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faCopyright } from '@fortawesome/free-regular-svg-icons'
+import { faInstagramSquare , faCreativeCommonsShare} from '@fortawesome/free-brands-svg-icons';
+import { faLocationDot ,faEnvelope,faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin,faGithub , faTeamspeak,faFacebook} from '@fortawesome/free-brands-svg-icons';
+import { Element } from 'react-scroll';
+import '../Footer/Footer.css'
 function Footer() {
+  let date = new Date();
+  let year = date.getFullYear();
+  // console.log(year);
   return <>
-  <Element name='contact' className="footer">
-    <h1>Contact Me</h1>
-    <p><FontAwesomeIcon icon={faPhone} /> &nbsp;Phone Number : 8675750594</p>
-    <p><FontAwesomeIcon icon={faEnvelope} />&nbsp; G Mail : sarankumartsk@gmail.com</p>
-    <div className='icon_set'>
-    <a style={{color:"white"}} href="https://github.com/SARANKUMARTSK"><FontAwesomeIcon icon={faGithub}  /></a>
-    <a href="https://www.linkedin.com/in/saran-kumar-17563a250/"><FontAwesomeIcon icon={faLinkedinIn}  /></a>
-    <a style={{color:"darkviolet"}} href="https://www.instagram.com/_charan_tsk_/"><FontAwesomeIcon icon={faInstagramSquare}  /></a>
-    <a href="https://www.facebook.com/profile.php?id=100009111732920"><FontAwesomeIcon icon={faFacebookSquare}  /></a>
+  <Element name="contact" className='footer_page'>
+   <div className='footer_about'>
+    <div className='orderIcon_footer'><h4 style={{display:"inline"}}><span>S</span>aran <span>K</span>umar</h4></div>
+    <div className='footer_adress'>
+    <p><FontAwesomeIcon icon={faLocationDot} />&nbsp;&nbsp;&nbsp;No.24/1 Masaniamman Temple Street</p>
+     <p>Anaimalai (Tk), Coimbatore(Dist) , TamilNadu</p>
+     <p>642104. </p>
     </div>
-    <div>
-    </div>
+   </div>
+   <div className='footer_about3'>
+   <h3>CONTACT ME @</h3>
+    <h6><FontAwesomeIcon icon={faTeamspeak} />&nbsp;8675750594</h6>
+    <h6><FontAwesomeIcon icon={faEnvelope} />&nbsp;sarankumartsk@gmail.com</h6>
+   <div className='footer_flex_icons'>
+     <a style={{color:"white"}} href="https://www.linkedin.com/in/saran-kumar-17563a250/"><FontAwesomeIcon icon={faLinkedin} /></a>
+    <a style={{color:"white"}} href="https://github.com/SARANKUMARTSK"><FontAwesomeIcon icon={faGithub} /></a>
+    <a style={{color:"white"}} href="https://www.instagram.com/_charan_tsk_/"><FontAwesomeIcon icon={faInstagramSquare} /></a>
+    <a style={{color:"white"}} href="https://www.facebook.com/profile.php?id=100009111732920"><FontAwesomeIcon icon={faFacebook} /></a>
+   </div>
+   </div>
+   <div className='footer_about2'>
+    <h3> Download Resume</h3>
+    <a href=""><FontAwesomeIcon icon={faCreativeCommonsShare} /></a>
+    <br />
+    {/* <FontAwesomeIcon icon={faDownload} /> */}
+
+   </div>
+     
   </Element>
+  
+  <div className='footer_copyRights'>
+    <div className='copy'><FontAwesomeIcon icon={faCopyright} /> {`${year} All Rights Reserved`}</div>
+  </div>
   </>
 }
 

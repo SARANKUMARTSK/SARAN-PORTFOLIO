@@ -2,15 +2,12 @@ import React from 'react'
 import './Skills.css'
 import { Element } from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faJs,faCss3,faHtml5,faReact,faNode,faGithub,faBootstrap} from '@fortawesome/free-brands-svg-icons'
+import { faJs,faCss3Alt,faHtml5,faReact,faNode,faGithub,faBootstrap} from '@fortawesome/free-brands-svg-icons'
 
 function Skills() {
     return <>
-    <fieldset style={{borderRadius:"10px"}}>
-    <legend ><h1 className='skill_title'>Technical Skills</h1></legend>
-    
             <Element name='skills' className='skill_container'>
-                
+           <h1 className='skill_title'>Technical Skills</h1>
                 <div className='skill_details_container'>
                     <div className='skill_details html'>
                     <FontAwesomeIcon className='html_icon' icon={faHtml5} />
@@ -19,8 +16,8 @@ function Skills() {
                         
                     </div>
                     <div className='skill_details css'>
-                    <img className='css_image' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi8WHiflZyXffrnb_rsoHv9OSZuNrC9kbyLg&usqp=CAU" alt="" />
-                    <h2>CSS 3</h2>
+                    <FontAwesomeIcon className='css_icon' icon={faCss3Alt} />    
+                                    <h2>CSS 3</h2>
                         
                     </div>
                     <div className='skill_details js'>
@@ -48,21 +45,21 @@ function Skills() {
                         <h1>NODE JS</h1>
                     
                     </div>
-                    <div className='skill_details expressjs'>
+                    {/* <div className='skill_details expressjs'>
                         <h1 style={{color:'black' , textShadow:"none"}}>Express <span style={{color:"yellow"}}><FontAwesomeIcon className='express_icon' icon={faJs} /></span>  </h1>
                         <h3>Express JS</h3>
-                    </div>
+                    </div> */}
                     <div className='skill_details github'>
                       <FontAwesomeIcon className='git_hub' icon={faGithub} />
                         <h2>Git Hub</h2>
                     </div>
                     <div className='skill_details github'>
                       <FontAwesomeIcon className='bootstrap_icon' icon={faBootstrap}  />
-                        <h2>Git Hub</h2>
+                        <h2>BootStrap</h2>
                     </div>
                 </div>
             </Element>
-     </fieldset>
+
     </>
 }
 

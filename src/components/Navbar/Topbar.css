@@ -1,19 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 .navbar{
     color: black;
     background-color: white;
     display: flex;
-    position: sticky;
+    position: sticky !important;
     margin-top: 0px;
     top: 0;
+    z-index: 1000;
 } 
-
-
 .navbar_left>h1{
     letter-spacing: 1px;
     padding: 20px 0;
     text-align: center;
     text-shadow: 1px 1px 2px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .navbar_left{
     flex: 0.4;
@@ -40,15 +44,18 @@
 }
 .navbar_right>a>h4:hover{
      background-color:lawngreen;
-     border-radius: 6px;
      transform: scale(1.09);
      color: white;
-     padding: 5px 20px;
+     /* padding: 5px 20px; */
      font-size: 18px;
      box-shadow: 5px 2px 2px black;
 }
 
 .navbar_right>a>h4{
+    padding: 5px 20px;
+    border-radius: 6px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
     cursor: pointer;
     font-size: 18px; 
     transition: transform 200ms ease-in-out;   

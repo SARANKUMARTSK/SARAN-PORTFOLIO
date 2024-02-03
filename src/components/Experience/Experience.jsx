@@ -4,11 +4,11 @@ import { Element } from 'react-scroll'
 
 function Experience() {
   return <>
-  <fieldset style={{borderRadius:"10px"}}>
+  <fieldset className='work_experience'>
   <legend><h1>Work Experience</h1></legend>
   <Element name='experience' className='experience'>
     <div>
-      <h2>Technical : I am a Fresher</h2>
+      <h2><span>Technical :</span> Fresher</h2>
     </div>
     <hr />
     <h2>Non-Technical :-</h2>
@@ -29,7 +29,7 @@ function Experience() {
         <details>
           <summary><span>About Role</span></summary>
           <p>To Maintain a 2 Lack Capacity Of Breeder Flock By the Contract Formers</p>
-          <p>Management For Labour & Supervisors</p>
+          <p>Management of Labour & Supervisors</p>
           <p>SOP Implementation </p>
           <p>Weekly and Monthly Report Consolidation and Cost Management</p>
         </details>

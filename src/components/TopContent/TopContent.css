@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Revolution&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 .topContainer{
     background-image: url(https://www.sapphiresolutions.net/images/hire_mern_stack/images/hire_mern_stack_banner.svg);
     height: 60vh;
@@ -7,7 +9,14 @@
 .topContent_contaier{
     text-align: center;
     /* padding-top: 150px; */
-    
+}
+.topContent_contaier>h1{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+}
+.topContent_contaier>p{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
 }
 .download_button{
     padding: 10px;

@@ -8,7 +8,7 @@ function TopContent() {
   <div name='home' className='topContainer'>
     <div className='topContent_contaier'>
         <h1>SARAN KUMAR T</h1>
-        <p><b>Full Stack Developer</b></p>
+        <p>Full Stack Developer</p>
         <button className='download_button'>Download CV</button>
        <Link className='mywork_button' to='projects' smooth={true} duration={500}><button>My Work</button></Link>
     </div>  

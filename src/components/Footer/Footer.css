@@ -1,17 +1,87 @@
-.footer{
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Concert+One&family=Dancing+Script:wght@400..700&family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+.footer_page{
+    margin-top: 20px;
+    padding: 50px;
+    padding-left: 0;
     background-color: black;
-    color: white;
-    height: auto;
-    text-align: center;
-    margin: 0px;
-    padding: 10px;
-}
-.icon_set{
-    margin: 50px;
     display: flex;
-    font-size: 50px;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .footer_copyRights{
+    height: 80px;
+    background-color: black;
+    border-top: 2px solid bisque;
+  }
+  .copy{
+       color: beige ;
+       text-align: center;
+       margin-top: 20px;
+       text-shadow: 1px 1px 3px beige;
+  }
+  .orderIcon_footer{
+    color: white;
+    display: inline;
+    font-family: "Concert One", sans-serif;
+    padding: 50px;
+  }
+  .orderIcon_footer>h4>span{
+    color: orangered;
+    display: inline !important;
+    font-size: 30px;
+  }
+  .icon_footer{
+    color: white;
+    font-size: 40px;
+  }
+  .footer_adress{
+    font-family: "Concert One", sans-serif;
+    color: white;
+    padding: 20px;
+    font-weight: 500;
+  }
+  .footer_about{
+    text-align: center;
+  }
+  .footer_about3{
+    text-align: center;
+    font-family: "Concert One", sans-serif;
+  }
+  .footer_about3>h3{
+    text-decoration: underline;
+    color: orangered;
+  }
+  .footer_flex_icons{
+    font-size: 30px;
+    color: white ;
+    display: flex;
     justify-content: space-evenly;
-}
-
+  }
+  .footer_about3>h6{
+    text-decoration: underline;
+    color: white;
+    padding: 10px;
+  }
+  .footer_flex_icons>a:hover{
+    color: greenyellow;
+  }
+  .footer_about2{
+    align-items:center ;
+    text-align: center;
+    font-family: "Concert One", sans-serif;
+  }
+  .footer_about2>h3{
+    color: orangered;
+  }
+  .footer_about2>a>svg{
+    color: white;
+    height: 100px;
+  }
+  .footer_about2>a>svg:hover{
+    color: greenyellow;
+  }

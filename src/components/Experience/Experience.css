@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
 .nav_list_experience{
     list-style: none;
     display: flex;
@@ -43,4 +45,29 @@ summary>span{
 details>p{
     font-size: 15px;
     font-weight: bolder;
+}
+legend>h1{
+    text-align: center;
+    color: black;
+    font-family: "Teko", sans-serif;
+}
+.work_experience{
+    margin-top: 30px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+.experience>h2{
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    text-shadow: 1px 1px 1px;
+}
+.experience>div>h2>span{
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    text-shadow: 1px 1px 1px;
+
+}
+.experience>div>h2{
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    text-shadow: 1px 1px 1px;
 }
